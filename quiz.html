@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e621764f88.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="quizpagebackground  d-flex flex-column justify-content-center">
+            <h1 class="heading text-center mb-3">Hey <span class="ccbphead"> CCBPians</span></h1>
+            <p class="text-center ccbppara">Are you ready for a quiz</p>
+            <div class="text-center">
+                <button class="yes-button" id="startPage" onclick="display('sectionQuestionsPage')">YES <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    </svg></button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionQuestionsPage">
+        <div class="quizpagebackground2 p-5" id="page2">
+            <h1 class="score-head mb-3">Score : <span class="text-light" id="score">0</span></h1>
+
+            <h1 class="questionhead text-center p-3 mb-4" id="questionHead"></h1>
+            <div>
+                <button class="option mb-3 mr-5" id="oneHead"></button>
+                <br />
+                <button class="option mb-3 mr-5" id="twoHead"></button>
+                <br />
+                <button class="option mb-3 mr-5" id="threeHead"></button>
+                <br />
+                <button class="option mb-3 mr-5" id="fourHead"></button>
+            </div>
+            <p id="showAnswer" class="mt-4 mb-3"></p>
+            <button class="next-button btn btn-primary mt-3" id="nextButton">Next <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg></button>
+        </div>
+
+    </div>
+    <div id="last">
+
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
